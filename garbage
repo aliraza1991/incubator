@@ -1,0 +1,3 @@
+<?php if(isset($_SESSION['id']) && ($_SESSION['id'])==2){
+        ?> startup_detail.php <?php } else { ?> signin.php <?php } ?>
+        
